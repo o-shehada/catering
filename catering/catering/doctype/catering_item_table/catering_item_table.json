@@ -49,19 +49,15 @@
    "label": "Qty"
   },
   {
-   "columns": 1,
    "default": "0",
    "fieldname": "returned_qty",
    "fieldtype": "Float",
-   "in_list_view": 1,
    "label": "Returned Qty"
   },
   {
-   "columns": 1,
    "default": "0",
    "fieldname": "consumed_qty",
    "fieldtype": "Float",
-   "in_list_view": 1,
    "label": "Consumed Qty",
    "read_only": 1
   },
