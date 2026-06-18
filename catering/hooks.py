@@ -255,4 +255,36 @@ fixtures = [
 		"dt": "Custom Field",
 		"filters": [["name", "in", ["Purchase Invoice-consolidated_catering_invoice"]]],
 	},
+	{
+		"dt": "Dashboard Chart",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Flight Movements by Status",
+					"Movements Over Time",
+					"Consumed Amount Over Time",
+					"Returns by Departure Station",
+				],
+			]
+		],
+	},
+	{
+		"dt": "Number Card",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Total Flight Movements",
+					"Pending Returns",
+					"Returned Flights",
+					"Invoiced Flights",
+					"Total Consumed Amount",
+					"Consolidated Invoices",
+				],
+			]
+		],
+	},
 ]
