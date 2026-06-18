@@ -1,0 +1,199 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-06-17 00:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "airplane",
+  "flight_number",
+  "flight_datetime",
+  "column_break_main",
+  "from_station",
+  "to_station",
+  "supplier",
+  "price_list",
+  "status",
+  "template_section",
+  "select_template",
+  "items_section",
+  "loaded_items",
+  "totals_section",
+  "total_qty",
+  "column_break_totals",
+  "total_amount",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "FCM-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "FCM-.YYYY.-",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "airplane",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Airplane",
+   "options": "Airplane",
+   "reqd": 1
+  },
+  {
+   "fieldname": "flight_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Flight Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "flight_datetime",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Flight Date / Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_main",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from_station",
+   "fieldtype": "Link",
+   "label": "From Station",
+   "options": "Catering Station"
+  },
+  {
+   "fieldname": "to_station",
+   "fieldtype": "Link",
+   "label": "To Station",
+   "options": "Catering Station"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Supplier",
+   "options": "Supplier",
+   "reqd": 1
+  },
+  {
+   "description": "Item rates are fetched from this Price List.",
+   "fieldname": "price_list",
+   "fieldtype": "Link",
+   "label": "Price List",
+   "options": "Price List"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Draft\nSubmitted\nReturned\nInvoiced",
+   "read_only": 1
+  },
+  {
+   "fieldname": "template_section",
+   "fieldtype": "Section Break",
+   "label": "Template"
+  },
+  {
+   "description": "Selecting a template loads its default items into Loaded Items below.",
+   "fieldname": "select_template",
+   "fieldtype": "Link",
+   "label": "Select Template",
+   "options": "Flight Catering Template"
+  },
+  {
+   "fieldname": "items_section",
+   "fieldtype": "Section Break",
+   "label": "Loaded Items"
+  },
+  {
+   "fieldname": "loaded_items",
+   "fieldtype": "Table",
+   "label": "Loaded Items",
+   "options": "Flight Catering Movement Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "totals_section",
+   "fieldtype": "Section Break",
+   "label": "Totals"
+  },
+  {
+   "fieldname": "total_qty",
+   "fieldtype": "Float",
+   "label": "Total Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_totals",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Flight Catering Movement",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "group": "Returns",
+   "link_doctype": "Catering Return",
+   "link_fieldname": "reference_movement"
+  }
+ ],
+ "modified": "2026-06-17 16:01:38.504994",
+ "modified_by": "Administrator",
+ "module": "Catering",
+ "name": "Flight Catering Movement",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

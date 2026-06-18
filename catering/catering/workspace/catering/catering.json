@@ -1,0 +1,191 @@
+{
+ "charts": [
+  {
+   "chart_name": "Flight Movements by Status",
+   "label": "Flight Movements by Status"
+  },
+  {
+   "chart_name": "Movements Over Time",
+   "label": "Movements Over Time"
+  },
+  {
+   "chart_name": "Consumed Amount Over Time",
+   "label": "Consumed Amount Over Time"
+  },
+  {
+   "chart_name": "Returns by Departure Station",
+   "label": "Returns by Departure Station"
+  }
+ ],
+ "content": "[{\"id\": \"721cc657fc\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Catering Operations Dashboard</b></span>\", \"col\": 12}}, {\"id\": \"bf43c44452\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Flight Movements\", \"col\": 4}}, {\"id\": \"35706cb06a\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Pending Returns\", \"col\": 4}}, {\"id\": \"521ece4028\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Returned Flights\", \"col\": 4}}, {\"id\": \"9ffcf400c5\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Invoiced Flights\", \"col\": 4}}, {\"id\": \"3ad43bb9bc\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Consumed Amount\", \"col\": 4}}, {\"id\": \"274389ba33\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Consolidated Invoices\", \"col\": 4}}, {\"id\": \"9bc5eefc7d\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"19216c2abb\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Analytics</b></span>\", \"col\": 12}}, {\"id\": \"ae7f31e16b\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Flight Movements by Status\", \"col\": 4}}, {\"id\": \"6ca7e60959\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Movements Over Time\", \"col\": 8}}, {\"id\": \"1f1168df21\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Consumed Amount Over Time\", \"col\": 8}}, {\"id\": \"31c9c44068\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Returns by Departure Station\", \"col\": 4}}, {\"id\": \"075ffe1cb8\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"a9513479d5\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\", \"col\": 12}}, {\"id\": \"fdaa14d259\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Flight Catering Movement\", \"col\": 3}}, {\"id\": \"8e1aa36c55\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Catering Return\", \"col\": 3}}, {\"id\": \"a4b287fd06\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Consolidated Catering Invoice\", \"col\": 3}}, {\"id\": \"6d4a2aa148\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Flight Catering Template\", \"col\": 3}}, {\"id\": \"bb03e959a8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Airplane\", \"col\": 3}}, {\"id\": \"1962e1ce7d\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Catering Station\", \"col\": 3}}, {\"id\": \"2156e3596b\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"fa5fa4b48c\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Documents</b></span>\", \"col\": 12}}, {\"id\": \"7db63ae550\", \"type\": \"card\", \"data\": {\"card_name\": \"Transactions\", \"col\": 4}}, {\"id\": \"7b267b21e2\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "creation": "2026-06-17 16:03:13.922085",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "dashboard",
+ "idx": 0,
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Catering",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transactions",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Flight Catering Movement",
+   "link_count": 0,
+   "link_to": "Flight Catering Movement",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Catering Return",
+   "link_count": 0,
+   "link_to": "Catering Return",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consolidated Catering Invoice",
+   "link_count": 0,
+   "link_to": "Consolidated Catering Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Flight Catering Template",
+   "link_count": 0,
+   "link_to": "Flight Catering Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Airplane",
+   "link_count": 0,
+   "link_to": "Airplane",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Catering Station",
+   "link_count": 0,
+   "link_to": "Catering Station",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-17 16:03:13.922085",
+ "modified_by": "Administrator",
+ "module": "Catering",
+ "name": "Catering",
+ "number_cards": [
+  {
+   "label": "Total Flight Movements",
+   "number_card_name": "Total Flight Movements"
+  },
+  {
+   "label": "Pending Returns",
+   "number_card_name": "Pending Returns"
+  },
+  {
+   "label": "Returned Flights",
+   "number_card_name": "Returned Flights"
+  },
+  {
+   "label": "Invoiced Flights",
+   "number_card_name": "Invoiced Flights"
+  },
+  {
+   "label": "Total Consumed Amount",
+   "number_card_name": "Total Consumed Amount"
+  },
+  {
+   "label": "Consolidated Invoices",
+   "number_card_name": "Consolidated Invoices"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Flight Catering Movement",
+   "link_to": "Flight Catering Movement",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Catering Return",
+   "link_to": "Catering Return",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Consolidated Catering Invoice",
+   "link_to": "Consolidated Catering Invoice",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Flight Catering Template",
+   "link_to": "Flight Catering Template",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Airplane",
+   "link_to": "Airplane",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Catering Station",
+   "link_to": "Catering Station",
+   "type": "DocType"
+  }
+ ],
+ "title": "Catering"
+}
